@@ -120,3 +120,18 @@ function App() {
 }
 
 export default App
+
+import Produto from "./components/Producto.jsx";
+
+function App(){
+  return(
+    <main className="app">
+      <h1>Wonder Beauty Shop</h1>
+      <section className="catalogo">
+        <Producto />
+        <Producto />
+        <Producto />
+      </section>
+    </main>
+  )
+}
